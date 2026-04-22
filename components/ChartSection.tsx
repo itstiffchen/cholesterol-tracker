@@ -36,10 +36,10 @@ export default function ChartSection({ records }: Props) {
   const data = sorted.map((r) => ({
     date: r.date,
     "Total Cholesterol": r.totalCholesterol,
-    "LDL": r.ldl,
-    "HDL": r.hdl,
+    "LDL (Bad Cholesterol)": r.ldl,
+    "HDL (Good Cholesterol)": r.hdl,
     "Triglycerides": r.triglycerides,
-    "Non-HDL": r.nonHdl,
+    "Non-HDL Cholesterol": r.nonHdl,
   }));
 
   function toggle(key: string) {
