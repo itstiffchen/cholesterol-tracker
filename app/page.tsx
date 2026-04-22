@@ -12,6 +12,7 @@ import RecordsTable from "@/components/RecordsTable";
 import ReminderBanner from "@/components/ReminderBanner";
 import EducationSection from "@/components/EducationSection";
 import ShareDialog from "@/components/ShareDialog";
+import NutritionPlan from "@/components/NutritionPlan";
 
 const ChartSection = dynamic(() => import("@/components/ChartSection"), { ssr: false });
 
@@ -93,6 +94,13 @@ function SharedView() {
             <section className="mb-10">
               <SectionTitle>Trends</SectionTitle>
               <ChartSection records={records} />
+            </section>
+
+            <hr className="site-rule" />
+
+            <section className="mb-10">
+              <SectionTitle>Nutrition Plan</SectionTitle>
+              <NutritionPlan records={records} />
             </section>
 
             <hr className="site-rule" />
@@ -225,6 +233,14 @@ export default function Home() {
             )}
           </div>
           <ChartSection records={records} />
+        </section>
+
+        <hr className="site-rule" />
+
+        {/* Nutrition Plan */}
+        <section className="mb-10">
+          <SectionTitle>Nutrition Plan</SectionTitle>
+          <NutritionPlan records={records} />
         </section>
 
         <hr className="site-rule" />
