@@ -202,8 +202,9 @@ export default function Home() {
       <div className="mx-auto max-w-[56rem] rounded-2xl border border-white/70 bg-white/65 px-8 py-10 shadow-[0_12px_48px_-16px_rgba(99,102,241,0.22),0_4px_24px_-8px_rgba(139,92,246,0.12)] backdrop-blur-md sm:px-10 sm:py-12">
         <a
           href="https://itstiffchen.github.io"
-          className="mb-6 inline-flex items-center gap-1.5 text-sm font-medium text-[#5a6288] transition hover:text-[#3d5a9e]"
+          className="mb-6 flex items-center gap-3 rounded-xl border border-[#e0e7ff] bg-white/60 px-5 py-3 text-sm font-semibold text-[#3d5a9e] transition hover:bg-white/80"
         >
+          <span className="text-xl">&#8592;</span>
           Back to Tiffany&apos;s Personal Website
         </a>
         <header className="mb-8">
