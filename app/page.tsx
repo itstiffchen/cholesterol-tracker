@@ -200,6 +200,12 @@ export default function Home() {
   return (
     <div className="min-h-screen px-5 py-12 sm:px-8 sm:py-16">
       <div className="mx-auto max-w-[56rem] rounded-2xl border border-white/70 bg-white/65 px-8 py-10 shadow-[0_12px_48px_-16px_rgba(99,102,241,0.22),0_4px_24px_-8px_rgba(139,92,246,0.12)] backdrop-blur-md sm:px-10 sm:py-12">
+        <a
+          href="https://itstiffchen.github.io"
+          className="mb-6 inline-flex items-center gap-1.5 text-sm font-medium text-[#5a6288] transition hover:text-[#3d5a9e]"
+        >
+          ← Back to tiffanychen.com
+        </a>
         <header className="mb-8">
           <h1 className="font-serif text-4xl font-normal tracking-tight">
             <span className="bg-gradient-to-r from-[#1e3a5f] via-[#3d5a9e] to-[#6b5b95] bg-clip-text text-transparent">
