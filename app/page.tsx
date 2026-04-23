@@ -204,7 +204,7 @@ export default function Home() {
           href="https://itstiffchen.github.io"
           className="mb-6 inline-flex items-center gap-1.5 text-sm font-medium text-[#5a6288] transition hover:text-[#3d5a9e]"
         >
-          ← Back to itstiffchen.github.io
+          Back to Tiffany&apos;s Personal Website
         </a>
         <header className="mb-8">
           <h1 className="font-serif text-4xl font-normal tracking-tight">
